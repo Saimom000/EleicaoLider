@@ -83,7 +83,7 @@ public class Main {
             // Verificar se o lider atual deve ser trocado (pois falhou)
             if (lider.testaFalha(i)) {
 
-                System.out.println("\nElegendo proximo lider\n");
+                System.out.println("\nElegendo próximo lider\n");
                 // Esperar um tempinho para ver a troca de lider
                 TimeUnit.MILLISECONDS.sleep(timeMensagem);
 
